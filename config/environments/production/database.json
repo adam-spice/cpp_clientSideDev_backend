@@ -4,8 +4,8 @@
     "default": {
       "connector": "mongoose",
       "settings": {
-        "uri": "${process.env.DATABASE_URI}",
-        "database": "${process.env.DATABASE_NAME}"
+        "uri": "mongodb://spiceybrisket:EblkuWxp0012@whatyalookinat-shard-00-00-r3bvs.mongodb.net:27017,whatyalookinat-shard-00-01-r3bvs.mongodb.net:27017,whatyalookinat-shard-00-02-r3bvs.mongodb.net:27017/test?ssl=true&replicaSet=whatyalookinat-shard-0&authSource=admin&retryWrites=true&w=majority",
+        "database": "strapi"
       },
       "options": {
         "ssl": true
